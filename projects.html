@@ -36,25 +36,39 @@
 
 
 
-/* --- Projects Page Layout --- */
-.project-container {
-  display: flex;
-  justify-content: center;
-  gap: 40px; /* Puts some space between the two apps */
-  flex-wrap: wrap; /* Allows them to stack on smaller screens */
-  padding: 20px;
-}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>My Projects</title>
+</head>
+<body>
 
-.project-card {
-  background-color: rgba(255, 255, 255, 0.1); /* Adds a subtle dark/light tint box behind the app */
-  padding: 15px;
-  border-radius: 10px;
-  margin-bottom: 20px;
-}
+    <nav class="navbar">
+        <a href="index.html">Home</a>
+        <a href="projects.html">Projects</a>
+    </nav>
 
-.project-card h2 {
-  color: white;
-  font-family: sans-serif;
-  margin-bottom: 15px;
-}
+    <center>
+        <h1>My Projects</h1>
+    </center>
+
+    <div class="project-container">
+        
+        <div class="project-card">
+            <h2>Project Title 1</h2>
+            <p>Description of your project goes here.</p>
+        </div>
+
+        <div class="project-card">
+            <h2>Project Title 2</h2>
+            <p>Description of your project goes here.</p>
+        </div>
+
+    </div>
+
+</body>
+</html>
 
